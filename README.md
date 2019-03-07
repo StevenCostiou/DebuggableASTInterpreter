@@ -1,6 +1,34 @@
 # DebuggableASTInterpreter
 An AST interpreter that accepts stepping operations
 
+# DebuggableASTInterpreter
+An AST interpreter that accepts stepping operations
+
+# Installation
+## Install only the interpreter
+```Smalltalk
+Metacello new
+    baseline: 'DebuggableASTInterpreter';
+    repository: 'github://StevenCostiou/DebuggableASTInterpreter';
+    load.
+```
+
+## Install the debugger
+```Smalltalk
+Metacello new
+    baseline: 'DebuggableASTInterpreter';
+    repository: 'github://StevenCostiou/DebuggableASTInterpreter';
+    load: #Debugger.
+```
+
+## Install the overlays experiments for debugging in isolation (Experimental!)
+```Smalltalk
+Metacello new
+    baseline: 'DebuggableASTInterpreter';
+    repository: 'github://StevenCostiou/DebuggableASTInterpreter';
+    load: #Overlay.
+```
+
 # NextSteps
 
 - *composed messages (messages with messages as arguments)
