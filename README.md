@@ -1,9 +1,6 @@
 # DebuggableASTInterpreter
 An AST interpreter that accepts stepping operations
 
-# DebuggableASTInterpreter
-An AST interpreter that accepts stepping operations
-
 # Installation
 ## Install only the interpreter
 ```Smalltalk
